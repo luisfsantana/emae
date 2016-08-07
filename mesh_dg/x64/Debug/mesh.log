@@ -1,0 +1,22 @@
+﻿Build started 18-06-2014 10:24:16.
+Project "C:\Users\luis\Documents\Visual Studio 2010\Projects\mesh_dg\mesh.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "x64\Debug\mesh.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\inc /I"..\..\..\inc-x64" /I"..\..\..\..\inc-x64" /I"..\..\..\..\..\inc-x64" /AI"..\..\..\inc-x64" /AI"..\..\..\..\inc-x64" /AI"..\..\..\..\..\inc-x64" /AI..\..\..\inc /AI..\..\..\..\inc /AI..\..\..\..\..\inc /Zi /nologo /W3 /WX /Od /D RADPACK /D _WIN32_IE=0x0600 /D WIN /D WIN32 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT=1 /D _AFXDLL /D _UNICODE /D UNICODE /D _WINDLL /GF /Gm- /EHsc /RTCc /RTC1 /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt mesh.cpp
+  mesh.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\luis\Documents\Visual Studio 2010\Projects\mesh_dg\x64\Debug\mesh.arx" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\lib /LIBPATH:"..\..\..\lib-x64" /LIBPATH:"..\..\..\..\lib-x64" /LIBPATH:"..\..\..\..\..\lib-x64" accore.lib acad.lib acui19.lib adui19.lib ac1st19.lib acdb19.lib acge19.lib acgiapi.lib acISMobj19.lib rxapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"..\..\..\inc\AcRxDefault.def" /MANIFEST /ManifestFile:"x64\Debug\mesh.arx.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\luis\Documents\Visual Studio 2010\Projects\mesh_dg\x64\Debug\mesh.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"x64\Debug\mesh.lib" /MACHINE:X64 /CLRTHREADATTRIBUTE:STA /CLRIMAGETYPE:IJW /CLRUNMANAGEDCODECHECK /DLL x64\Debug\mesh.obj
+     Creating library x64\Debug\mesh.lib and object x64\Debug\mesh.exp
+rxapi.lib(libinit.obj) : warning LNK4099: PDB 'rxapi_cl.pdb' was not found with 'rxapi.lib(libinit.obj)' or at 'C:\Users\luis\Documents\Visual Studio 2010\Projects\mesh_dg\x64\Debug\rxapi_cl.pdb'; linking object as if no debug info
+  mesh.vcxproj -> C:\Users\luis\Documents\Visual Studio 2010\Projects\mesh_dg\x64\Debug\mesh.arx
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\luis\Documents\Visual Studio 2010\Projects\mesh_dg\x64\Debug\mesh.arx;#2" /manifest x64\Debug\mesh.arx.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "x64\Debug\mesh.unsuccessfulbuild".
+  Touching "x64\Debug\mesh.lastbuildstate".
+Done Building Project "C:\Users\luis\Documents\Visual Studio 2010\Projects\mesh_dg\mesh.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.40
